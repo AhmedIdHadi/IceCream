@@ -1,0 +1,272 @@
+<!-- <!DOCTYPE html>
+<html lang="en"> -->
+<!-- <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>IceCream</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p class="related-1">Icy Yummy</p>
+        <div class="related-2">
+          <ul>
+            <li class="red"><a href="#">Home</a></li>
+            <li class="gold"><a href="#">Scoops</a></li>
+            <li class="pars"><a href="#">IceCream</a></li>
+            <li class="green"><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="related-3">
+          <div class="search">
+            <form action="#">
+              <input type="text" placeholder=" Search..." name="search" />
+            </form>
+          </div>
+          <button>Cart</button>
+
+          <button><a href="#">Login</a></button>
+        </div>
+      </header>
+      <nav>
+        <h1>Life is like an Ice Cream</h1>
+        <h4>Enjoy it before it melts</h4>
+      </nav>
+
+      <article>
+        <img class="img-1" src="Bmore.jpeg" alt="" Tasty kiwi />
+        <!-- <button>add</button> -->
+<!-- <img class="img-1" src="iceblue.jpeg" alt="" Juicy Mango /> -->
+<!-- <button>add</button> -->
+<!-- <img class="img-1" src="pexels.jpeg" alt="" Softy Strawberry /> -->
+<!-- <button>add</button> -->
+<!-- <img class="img-1" src="Pistachio.jpeg" alt="" Gem Scoop /> -->
+<!-- <button>add</button> -->
+<!-- </article> -->
+-->
+
+<!-- <footer>
+        <p class="follow">Follow us ...</p>
+
+        <div class="img-media">
+          <img
+            src="facebook-logo.png"
+            alt="Facebook Icon"
+            class="facebook-logo"
+          />
+          <img
+            src="twitter-logo-icon.png"
+            alt="Twitter Icon"
+            class="twitter-logo"
+          />
+          <img
+            src="Instagram-Free-Icon.png"
+            alt="Instagram Icon"
+            class="instagram-logo"
+          />
+        </div>
+        <p class="copy">Copyright 2023</p>
+      </footer>
+    </div>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .item0 {
+        grid-area: logo;
+      }
+      .item1 {
+        grid-area: header;
+      }
+      .item2 {
+        grid-area: main;
+        display: inline-block;
+      }
+      .item3 {
+        grid-area: disc;
+        align-content: first baseline;
+      }
+      .item4 {
+        grid-area: right;
+      }
+      /* .item5 {
+        grid-area: footer;
+      } */
+      .logo {
+        width: 200px;
+        height: auto;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ee9898;
+      }
+      li a {
+        display: block;
+        color: rgb(9, 9, 9);
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      li {
+        float: left;
+      }
+
+      li a:hover {
+        background-color: #ef7878;
+      }
+      .first {
+        width: 100px;
+        height: auto;
+        font-size: 20px;
+      }
+
+      .second {
+        width: 100px;
+        height: auto;
+      }
+
+      .third {
+        width: 100px;
+        height: auto;
+      }
+
+      .fourth {
+        width: 100px;
+        height: auto;
+      }
+      img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      }
+
+      header {
+        grid-column: 2/9;
+        grid-row: -3/-4;
+      }
+      .line-1 {
+        font-size: 45px;
+        font-family: fantasy;
+        color: darksalmon;
+      }
+
+      .line-2 {
+        font-size: 25px;
+        color: #822c4e;
+        font-family: cursive;
+      }
+
+      .order {
+        float: inline-end;
+        font-family: sans-serif;
+      }
+
+      .order:hover {
+        box-shadow: 0 0 5px 4px rgba(0, 140, 186, 0.5);
+      }
+      button {
+        background-color: #04aa6d;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      button:hover {
+        opacity: 0.8;
+      }
+
+      figcaption {
+        font-size: 15px;
+      }
+
+      .footer {
+        grid-area: footer;
+        position: fixed;
+        left: 20;
+        right: 20;
+        bottom: 20;
+        width: auto;
+        height: 30;
+        background-color: red;
+        color: white;
+        display: inline-block;
+      }
+
+      .copy {
+        color: #ef7878;
+        font-size: 35px;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "logo header header header header header"
+          "disc disc disc disc disc disc"
+          "main main main main main main"
+          "menu footer footer footer footer footer";
+        gap: 0px;
+        background-color: rgb(217, 96, 118);
+        padding: 40px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item0"><img src="logo.avif" alt="Logo" class="logo" /></div>
+      <div class="item1">
+        <ul class="list">
+          <li class="red"><a href="#">Home</a></li>
+          <li class="gold"><a href="#">Scoops</a></li>
+          <li class="pars"><a href="#">IceCream</a></li>
+          <li class="green"><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <button class="order">Order Now</button>
+      </div>
+      <div class="item2">
+        <figure>
+          <img src="Bmore.jpeg" alt="First Photo" class="first" ">
+          <figcaption>5,5€</figcaption>
+        </figure>
+        <figure>
+          <img src="iceblue.jpeg" alt="Second Photo" class="second" />
+          <figcaption>4,5€</figcaption>
+        </figure>
+        <figure>
+          <img src="Pistachio.jpeg" alt="Third Photo" class="third" />
+          <figcaption>3,8€</figcaption>
+        </figure>
+        <figure>
+          <img src="pexels.jpeg" alt="Fourth Photo" class="fourth" />
+          <figcaption>5€</figcaption>
+        </figure>
+      </div>
+      <div class="item3">
+        <h1 class="line-1">Life is like an Ice Cream</h1>
+        <p class="line-2">Enjoy it before it melts</p>
+      </div>
+      <div class="footer">
+        <p class="copy">Copyright 2023</p>
+      </div>
+      <div class="item4"></div>
+      <div class="item5"></div>
+    </div>
+  </body>
+</html>
